@@ -7,9 +7,9 @@ Admin theme template built using bootstrap 4, jquery and sass.
 Download a local copy of this project to your system assuming you have [npm](https://www.npmjs.com/) installed.
 Start by installing dependencies
 
-`npm install`
-To start the development server run 
-`num run start:dev`
+`npm install`  
+To start the development server run   
+`num run start:dev`  
 
 ### Prerequisites
 
@@ -20,10 +20,13 @@ This project also requires [npm](https://www.npmjs.com/) to install dependencies
 
 ## Deployment
 
-I have used github pages to deploy my project you may view the live project [here](https://alandsilva26.github.io/admin-theme)
-To deploy this project fork this repository then edit the following line in `package.json` 
-`  "homepage": "https://alandsilva26.github.io/admin-theme",`
-Replace `alandsilva26` with your own github username.
+I have used github pages to deploy my project you may view the live project [here](https://alandsilva26.github.io/admin-theme)  
+To deploy this project fork this repository then edit the following line in `package.json`   
+`"homepage": "https://alandsilva26.github.io/admin-theme",`  
+Replace `alandsilva26` with your own github username.  
+To deploy run   
+`npm run deploy`  
+You may need to provide your github email password if not previously set.  
 
 ## Built With
 
