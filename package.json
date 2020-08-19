@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Admin Theme ",
   "main": "js/app.js",
+  "homepage": "https://alandsilva26.github.io/admin-theme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "admin",
@@ -22,6 +25,7 @@
     "css-loader": "^4.2.1",
     "fibers": "^5.0.0",
     "file-loader": "^6.0.0",
+    "gh-pages": "^2.0.1",
     "mini-css-extract-plugin": "^0.10.0",
     "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
