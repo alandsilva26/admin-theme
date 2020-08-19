@@ -1,6 +1,6 @@
-# admin-theme
+# Admin Theme - Responsive bootstrap dashboard template
 
-Admin theme template built using bootstrap 4, jquery and sass.
+Responsive dashboard layout template built using bootstrap 4, jquery and sass.
 
 ## Getting Started
 
