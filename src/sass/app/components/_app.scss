@@ -1,0 +1,11 @@
+.app-content {
+  min-height: calc(100vh - 50px);
+  margin-top: 50px;
+  margin-left: $sidebar-width;
+  padding: 30px;
+  background-color: #e5e5e5;
+  transition: margin-left 0.3s ease;
+  @media (max-width: 768px) {
+    margin-left: 0px;
+  }
+}
